@@ -20,7 +20,11 @@ If it is, then decode the inputs into the number represented by the digits on th
 
 ###Formal Inputs and Outputs
 0111011100 -> 37
+
 1010010000 -> Invalid
+
 0011101110 -> 73
+
 0000110000 -> 55
+
 1111110001 -> Invalid
