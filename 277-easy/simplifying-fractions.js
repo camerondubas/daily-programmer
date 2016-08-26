@@ -4,8 +4,4 @@ function simplify(input) {
   return `${numerator/divisor} ${denominator/divisor}`;
 }
 
-function gcd(val1, val2) {
-  let [largerNumber, smallerNumber] = val1 > val2 ? [val1, val2] : [val2, val1];  
-  let remainder = largerNumber % smallerNumber;
-  return remainder === 0 ? smallerNumber : gcd(smallerNumber, remainder);
-}
+function gcd(val1, val2) => val1 % val2 === 0 ? val2 : gcd(val2, val1 % val2);
