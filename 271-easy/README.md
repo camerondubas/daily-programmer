@@ -1,5 +1,6 @@
 #[2016-06-13] Challenge #271 [Easy] Critical Hit
 [Original Post](https://www.reddit.com/r/dailyprogrammer/comments/4nvrnx/20160613_challenge_271_easy_critical_hit/)
+
 Live Demo: https://jsbin.com/yukorac/6/edit?js,console
 
 ###Description
@@ -13,11 +14,13 @@ h -- The amount of health left on the enemy.
 The probability of you getting h or more points with your die.
 Challenge Inputs and Outputs
 
-|Input: `d`|Input: `h`|Output|
-|4|1|1|
-|4|4|0.25|
-|4|5|0.25|
-|4|6|0.1875|
-|1|10|1|
-|100|200|0.0001|
-|8|20|0.009765625|
+
+| Input: `d` | Input: `h` | Output |
+|------------|------------|--------|
+| 4 | 1 | 1 |
+| 4 | 4 | 0.25 |
+| 4 | 5 | 0.25 |
+| 4 | 6 | 0.1875 |
+| 1 | 10 | 1 |
+| 100 | 200 | 0.0001 |
+| 8 | 20 | 0.009765625 |
