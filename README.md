@@ -4,8 +4,11 @@
 
 Here is my collection of solutions to Daily Programmer Challenges:
 
+- [266 Node Degree](/266-easy)
 - [271 Critical Hit](/271-easy)
+- [272 What's in the bag?](/272-easy)
 - [275 Splurthian Chemistry 101](/275-easy)
 - [277 Simplifying Fractions](/277-easy)
 - [279 Text Reflow](/279-intermediate)
 - [280 0 to 100, Real Quick](/280)
+
