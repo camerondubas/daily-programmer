@@ -4,7 +4,7 @@
 
 Here is my collection of solutions to Daily Programmer Challenges:
 
-- [266 Node Degree](/266-easy)
+- [266 Node Degrees](/266-easy)
 - [271 Critical Hit](/271-easy)
 - [272 What's in the bag?](/272-easy)
 - [275 Splurthian Chemistry 101](/275-easy)
