@@ -33,9 +33,9 @@ function remainingPieces(input) {
   
   input
     .split('')
-    .forEach(i => {
-      startingPieces[i]--;
-      if (startingPieces[i] < 0) errors.push(i);
+    .forEach(item => {
+      startingPieces[item]--;
+      if (startingPieces[item] < 0) errors.push(i);
     });
   
 //   Remove Duplicates;
