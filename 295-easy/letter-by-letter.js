@@ -7,9 +7,11 @@ let inputs = [
 let outputs = inputs
   .map(input => input[0]
     .split('')
-    .reduce((previous, current, idx, originalInputs) => {    
-      originalInputs[idx] = input[1].split('')[idx];
-      previous.push(originalInputs.join(''));
+    .reduce((previous, current, idx, originalInputs) => {
+      if (originalInputs[idx] !== input[1].split('')[idx]) {
+        originalInputs[idx] = input[1].split('')[idx]
+        previous.push(originalInputs.join(''));
+      }
     
       return previous;
     }, [input[0]])
