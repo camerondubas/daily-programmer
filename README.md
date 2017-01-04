@@ -11,6 +11,7 @@ Here is my collection of solutions to Daily Programmer Challenges:
 ### Easy
 - [295 Letter By Letter](/295-easy)
 - [293 Defusing The Bomb](/293-easy)
+- [286 Reverse Factorial](/286-easy)
 - [280 0 to 100, Real Quick](/280)
 - [277 Simplifying Fractions](/277-easy)
 - [275 Splurthian Chemistry 101](/275-easy)
